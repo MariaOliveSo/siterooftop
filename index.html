@@ -1,0 +1,339 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rooftop Restaurant</title>
+</head>
+<body>
+    <header>
+    <ul>
+        <li class="nav-btn"><a href="index.html" class="nav-link">HOME</a></li>
+        <li class="nav-btn"><a href="menu.html" class="nav-link">MENU</a></li>
+        <li class="nav-btn"><a href="about.html" class="nav-link">ABOUT</a></li>
+
+        <li class="nav-btn">
+            <a href="index.html" class="nav-link">
+                <img src="img.pag1/logo.png">
+            </a>
+        </li>
+
+        <li class="nav-btn"><a href="#" class="nav-link">PAGES</a></li>
+
+        <!-- BLOG COM SUBMENU -->
+        <li class="nav-btn dropdown">
+            <a href="#" class="nav-link">BLOG</a>
+            <ul class="submenu">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blogdetails.html">Blog Detail</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-btn"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+    </ul>
+
+</header>
+    <section id="cabecalho">
+        <div id="roof1">
+            <p>ROOFTOP</p>
+            <hr>
+            <span>A Fine Dinning Restaurant</span>
+        </div>
+        </section>
+
+    <section class="about">
+    <div class="left">
+        <h3 class="titulo-completo">
+            DAILY FOOD <br>
+            COURSES <br>
+            WITH DRINKS
+        </h3>
+        <p class="descricao">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <a class="botao-menu" href="menu.html">SEE FULL MENU</a>
+    </div>
+    
+    <div class="right">
+
+        <h4>APPETIZER<hr></h4>
+
+        <p class="item">Ham & Potato Sandwiches .......... $25.00</p>
+        <p class="desc">(French bread baguette, cooked ham, potato salad)</p>
+
+        <p class="item">Ham & Potato Sandwiches .......... $25.00</p>
+        <p class="desc">(French bread baguette, cooked ham, potato salad)</p>
+
+
+        <h4>MAIN COURSES<hr></h4>
+
+        <p class="item">Ham & Potato Sandwiches .......... $25.00</p>
+        <p class="desc">(French bread baguette, cooked ham, potato salad)</p>
+
+        <p class="item">Ham & Potato Sandwiches .......... $25.00</p>
+        <p class="desc">(French bread baguette, cooked ham, potato salad)</p>
+
+
+        <h4>DRINKS & JUICES<hr></h4>
+
+        <p class="item">Ham & Potato Sandwiches .......... $25.00</p>
+        <p class="desc">(French bread baguette, cooked ham, potato salad)</p>
+
+        <p class="item">Ham & Potato Sandwiches .......... $25.00</p>
+        <p class="desc">(French bread baguette, cooked ham, potato salad)</p>
+
+    </div>
+    </section>
+
+    <section id="galeria">
+        <div class="img01"><img src="img.pag1/g1.jpg" alt=""></div>
+        <div class="img02"><img src="img.pag1/g2.jpg" alt=""></div>
+        <div class="img03"><img src="img.pag1/g3.jpg" alt=""></div>
+        <div class="img04"><img src="img.pag1/g4.jpg" alt=""></div>
+    </section>
+
+    <div class="container">
+
+        <div class="form-esq">
+            <div class="form-box">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1></h1>
+                    </div>
+                </div>
+                
+                <div class="input-group"    >
+                    <div class="input-box">
+                        <input id="evento-nome" type="text" name="evento-nome" placeholder="Event name" >
+                    </div>
+
+                    <div class="input-box">
+                        <input id="evento-data" type="date" name="evento-data" placeholder="Event date" >
+                    </div>
+
+                    <div class="input-box">
+                        <input id="evento-hora" type="time" name="evento-hora" placeholder="Event date" >
+                    </div>
+
+                    <div class="input-box">
+                        <input id="num-convidados" type="number" name="num-convidados" placeholder="number of guests" >
+                    </div>
+
+                    <div class="input-box">
+                        <input id="orcamento" type="text" name="orcamento" placeholder="Budget">
+                    </div>
+
+                    <div class="input-box">
+                        <input id="nome-cont" type="text" name="nome-cont" placeholder="Contact name">
+                    </div>
+
+                    <div class="input-box">
+                        <input id="num-telefone" type="tel" name="num-telefone" placeholder="(xx) xxxx-xxxx">
+                    </div>
+
+                    <div class="input-box">
+                        <textarea id="post-mensagem" type="text" name="post-mensagem" placeholder="Post a message"></textarea>
+                    </div>
+
+                </div>
+
+            <div class="login-button">
+                        <button><a href="#">SEND REQUEST</a></button>
+                    </div>
+            </form>
+            </div>
+        </div>
+
+        <div class="form-dir">
+            <h3>
+            Book a <Br>
+            Table or <br>
+            Rooms <br>
+            for <br>
+            private <br> 
+            dining
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+    <section class="chefs-quotes">
+        <div class="titulo-chefs-quotes">
+            <h3 class="nome-chef">
+                Chefs <br>
+                Quotes
+            </h3>
+            <p class="descricao-chef">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Quotes
+            </p>
+            <img src="img.pag1/signature.png" alt="">
+        </div>
+        <div class="img-chef-quotes">
+            <img src="img.pag1/chefs-quotes.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="carrosel">
+        <div class="slide">
+            <i><h3>MAIN COURSE</h3></i>
+            <hr>
+            <strong><span>Chicken Steak with gerlic bread & Fries</span></strong>
+        </div>
+
+    <button class="prev">
+        <img src="img.pag1/left-arrow.png" alt="">
+    </button>
+
+    <button class="next">
+        <img src="img.pag1/right-arrow.png" alt="">
+    </button>
+
+    </section>
+
+    <section class="mapa">
+
+        <div class="erro-container">
+            <div class="erro-mapa">
+                <div>
+                    <img src="img.pag1/icon_error.png" alt="">
+                </div>
+                <strong><p>Ops! Algo deu errado.<br><br></p></strong>
+                <p>Esta página não carregou o Google Maps corretamente. Consulte o console JavaScript para ver detalhes técnicos.</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <h3 class="titulo-mapa"> ROOFTOP <br> FINE DINNING <br> RESTAURANT</h3>
+            <span class="dados-mapa"> 432 Wyandotte Ave, Lakewood, OH, 44107 <br> 432 Wyandotte Ave, Lakewood, OH, 44107<br><br></span>
+            <span class="dados-mapa"> 012 44 (216) 785-9346 <br> 012 44 (216) 785-9346 <br> 012 44 (216) 785-9346<br><br></span>
+            <span class="dados-mapa"> info@rooftoprestaurant.co.uk <br> support@rooftoprestaurant.com</span>
+        </div>
+
+    </section>
+
+        <footer>
+        <div id="rodape">
+
+            <div id="rodape-listas">
+
+        <ul class="rodape-lista">
+            <li>
+                <h3>TOP PRODUCTS</h3>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Managed Website</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Manage Reputation</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Power Tools</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Marketing Service</a>
+            </li>
+        </ul>
+
+        <ul class="rodape-lista">
+            <li>
+                <h3>QUICK LINKS</h3>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Jobs</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Brand Assets</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Investor Relations</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Terms of Service</a>
+            </li>
+        </ul>
+
+        <ul class="rodape-lista">
+            <li>
+                <h3>FEATURES</h3>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Jobs</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Brand Assets</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Investor Relations</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Terms of Service</a>
+            </li>
+        </ul>
+
+        <ul class="rodape-lista">
+            <li>
+                <h3>RESOURCES</h3>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Guides</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Research</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Experts</a>
+            </li>
+            <li>
+                <a href="#" class="rodape-link">Agencies</a>
+            </li>
+        </ul>
+
+                        <div id="rodape-email">
+                <h3>NEWSLETTER</h3><br>
+                <span>Stay update with our latest</span>
+                <div id="input-grupo">
+                    <input type="email" id="email" placeholder="Enter Email Adress">
+                    <button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+        </div>
+
+            <div id="rodape-contatos"> 
+
+                <a href="#" class="rodape-midia-social">
+                    <a href="#" class="rodape-link" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            <a href="#" class="rodape-midia-social">
+                <a href="#" class="rodape-link" id="twitter">
+                   <i class="fa-brands fa-twitter"></i>
+                </a>
+            </class=>
+            <a href="#" class="rodape-midia-social">
+                <a href="#" class="rodape-link" id="dribbble">
+                    <i class="fa-brands fa-dribbble"></i>
+                </a>
+            <a href="#" class="rodape-midia-social">
+                <a href="#" class="rodape-link" id="facebook">
+                    <i class="fa-brands fa-behance"></i>
+                </a>
+
+            </div>
+        </div>
+
+        <div id="rodape-direitos-autorais">
+            Copyright
+            &#169
+            2018 All rights reserved <span><i class="fa-regular fa-heart"></i></span> This template is made with  by <span>Colorlib</span>
+        </div>
+    </footer>
+</body>
+</html>
